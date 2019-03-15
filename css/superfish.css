@@ -1,0 +1,49 @@
+ 
+.menu_block  {
+	position: relative;
+	float: right;
+	padding-top: 31px;
+}
+
+nav>.sf-menu {
+	text-align: center;
+}
+nav{ position:relative;padding: 0px 0 0 0;}
+.sf-menu ul {position:absolute;top:-999px; display:none;/* left offset of submenus need to match (see below) */}
+.sf-menu li {float:left;position:relative; }
+.sf-menu>li {
+	float: left;
+	position: relative;
+
+}
+
+
+.sf-menu>li:first-child {
+	margin-left: 0;
+}
+
+
+
+.sf-menu>li>a{
+	font-size: 18px;
+	font-family: 'Noto Sans', sans-serif;
+	color: #85423f;
+	position: relative;
+	text-transform: uppercase;
+	line-height: 20px;
+	z-index: 999;
+	
+	border-radius: 5px;
+	position: relative;
+	display: block;
+	padding: 5px 14px 8px;
+}
+
+
+.sf-menu>li.sfHover>a, .sf-menu>li.current>a, .sf-menu>li:hover>a:hover {
+	color: #fff;
+	background: #e2827e;
+	padding: 6px 14px 7px;
+}
+
+
